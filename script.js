@@ -202,7 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Focar no input
     videoUrl?.focus();
     
-    // Fechar modal com ESC
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeModal();
     });
